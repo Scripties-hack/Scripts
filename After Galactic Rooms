@@ -1,0 +1,230 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Gui = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Main_2 = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.750
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0, 550, 0, 350)
+
+UICorner.Parent = Frame
+
+Gui.Name = "Gui"
+Gui.Parent = Frame
+Gui.AnchorPoint = Vector2.new(0.5, 0.5)
+Gui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Gui.BackgroundTransparency = 0.900
+Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gui.BorderSizePixel = 0
+Gui.Position = UDim2.new(0.651206493, 0, 0.5, 0)
+Gui.Size = UDim2.new(0, 350, 0, 332)
+
+UICorner_2.Parent = Gui
+
+Main.Name = "Main"
+Main.Parent = Gui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0, 0, 0.0331325307, 0)
+Main.Size = UDim2.new(1, 0, 0.942771077, 0)
+Main.Visible = false
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "Bypass Anticheat"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIListLayout.Parent = Main
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0.0350000001, 0)
+
+TextButton_2.Parent = Main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextButton_2.Font = Enum.Font.Cartoon
+TextButton_2.Text = "Godmode"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextButton_3.Font = Enum.Font.Cartoon
+TextButton_3.Text = "Delete Entities"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextButton_4.Font = Enum.Font.Cartoon
+TextButton_4.Text = "Anti Ban"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextLabel.Parent = Gui
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.949999988, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "press CTRL to toggle."
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 0.900
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.153596416, 0, 0.5, 0)
+Frame_2.Size = UDim2.new(0, 147, 0, 332)
+
+UICorner_3.Parent = Frame_2
+
+ScrollingFrame.Parent = Frame_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.0331325307, 0)
+ScrollingFrame.Size = UDim2.new(1, 0, 0.912650585, 0)
+
+UIListLayout_2.Parent = ScrollingFrame
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0.0299999993, 0)
+
+Main_2.Name = "Main"
+Main_2.Parent = ScrollingFrame
+Main_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main_2.BackgroundTransparency = 1.000
+Main_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main_2.BorderSizePixel = 0
+Main_2.Size = UDim2.new(0.899999976, 0, 0.0500000007, 0)
+Main_2.Font = Enum.Font.Cartoon
+Main_2.Text = "Main"
+Main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.TextScaled = true
+Main_2.TextSize = 14.000
+Main_2.TextWrapped = true
+
+Misc.Name = "Misc"
+Misc.Parent = ScrollingFrame
+Misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Misc.BackgroundTransparency = 1.000
+Misc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Misc.BorderSizePixel = 0
+Misc.Size = UDim2.new(0.899999976, 0, 0.0500000007, 0)
+Misc.Font = Enum.Font.Cartoon
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Misc.TextScaled = true
+Misc.TextSize = 14.000
+Misc.TextWrapped = true
+
+-- Scripts:
+
+local function CPFP_fake_script() -- TextButton.LocalScript_obf 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local g = script.Parent.Parent.Parent.Parent.Gui.Main local k = script.Parent local p = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local o = game:GetService("\83\111\117\110\100\83\101\114\118\105\99\101") local f = Color3.new(1, 1, 1) local e = Color3.new(0.780392, 0.780392, 0.780392) local n = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) local j = Instance.new("\83\111\117\110\100") j.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\48\48\54\54\57\54\56\56\49\53"  j.Parent = k k.MouseEnter:Connect(function() local s = p:Create(k, n, { TextColor3 = e }) s:Play() end) k.MouseLeave:Connect(function() local s = p:Create(k, n, { TextColor3 = f }) s:Play() end) k.MouseButton1Click:Connect(function() j:Play() wait(2) game.Players.LocalPlayer:Kick("\83\84\79\80\32\69\88\80\76\79\73\84\73\78\71\32\89\79\85\32\82\69\84\65\82\84\69\68\32\70\85\67\75\46") end) 
+end
+coroutine.wrap(CPFP_fake_script)()
+local function GTYWGJL_fake_script() -- TextButton_2.LocalScript_obf 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(GTYWGJL_fake_script)()
+local function GMDBD_fake_script() -- TextButton_3.LocalScript_obf 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local g = script.Parent.Parent.Parent.Parent.Gui.Main local k = script.Parent local p = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local o = game:GetService("\83\111\117\110\100\83\101\114\118\105\99\101") local f = Color3.new(1, 1, 1) local e = Color3.new(0.780392, 0.780392, 0.780392) local n = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) local j = Instance.new("\83\111\117\110\100") j.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\48\48\54\54\57\54\56\56\49\53"  j.Parent = k k.MouseEnter:Connect(function() local s = p:Create(k, n, { TextColor3 = e }) s:Play() end) k.MouseLeave:Connect(function() local s = p:Create(k, n, { TextColor3 = f }) s:Play() end) k.MouseButton1Click:Connect(function() j:Play() wait(2) game.Players.LocalPlayer:Kick("\83\84\79\80\32\69\88\80\76\79\73\84\73\78\71\32\89\79\85\32\82\69\84\65\82\84\69\68\32\70\85\67\75\46") end) 
+end
+coroutine.wrap(GMDBD_fake_script)()
+local function CWUEVN_fake_script() -- TextButton_4.LocalScript_obf 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local g = script.Parent.Parent.Parent.Parent.Gui.Main local k = script.Parent local p = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local o = game:GetService("\83\111\117\110\100\83\101\114\118\105\99\101") local f = Color3.new(1, 1, 1) local e = Color3.new(0.780392, 0.780392, 0.780392) local n = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) local j = Instance.new("\83\111\117\110\100") j.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\48\48\54\54\57\54\56\56\49\53"  j.Parent = k k.MouseEnter:Connect(function() local s = p:Create(k, n, { TextColor3 = e }) s:Play() end) k.MouseLeave:Connect(function() local s = p:Create(k, n, { TextColor3 = f }) s:Play() end) k.MouseButton1Click:Connect(function() j:Play() wait(2) game.Players.LocalPlayer:Kick("\83\84\79\80\32\69\88\80\76\79\73\84\73\78\71\32\89\79\85\32\82\69\84\65\82\84\69\68\32\70\85\67\75\46") end) 
+end
+coroutine.wrap(CWUEVN_fake_script)()
+local function GCLUUM_fake_script() -- Main_2.LocalScript_obf 
+	local script = Instance.new('LocalScript', Main_2)
+
+	local g = script.Parent.Parent.Parent.Parent.Gui.Main local k = script.Parent local p = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local o = game:GetService("\83\111\117\110\100\83\101\114\118\105\99\101") local f = Color3.new(1, 1, 1) local e = Color3.new(0.780392, 0.780392, 0.780392) local n = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) local j = Instance.new("\83\111\117\110\100") j.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\48\48\54\54\57\54\56\56\49\53"  j.Parent = k k.MouseEnter:Connect(function() local s = p:Create(k, n, { TextColor3 = e }) s:Play() end) k.MouseLeave:Connect(function() local s = p:Create(k, n, { TextColor3 = f }) s:Play() end) k.MouseButton1Click:Connect(function() g.Parent.TextLabel.Visible = false g.Visible = true j:Play() end) 
+end
+coroutine.wrap(GCLUUM_fake_script)()
+local function HSBRZ_fake_script() -- Misc.LocalScript_obf 
+	local script = Instance.new('LocalScript', Misc)
+
+	local g = script.Parent local k = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local p = game:GetService("\83\111\117\110\100\83\101\114\118\105\99\101") local o = Color3.new(1, 1, 1) local f = Color3.new(0.780392, 0.780392, 0.780392) local e = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out) local n = Instance.new("\83\111\117\110\100") n.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\48\48\54\54\57\54\56\56\49\53"   n.Parent = g   g.MouseEnter:Connect(function() local l = k:Create(g, e, { TextColor3 = f }) l:Play() end) g.MouseLeave:Connect(function() local l = k:Create(g, e, { TextColor3 = o }) l:Play() end) g.MouseButton1Click:Connect(function() n:Play() end) 
+end
+coroutine.wrap(HSBRZ_fake_script)()
+local function ZTTJDEW_fake_script() -- Frame.LocalScript_obf 
+	local script = Instance.new('LocalScript', Frame)
+
+	local f = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101") local e = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local n = script.Parent  local j = game:GetService("\76\105\103\104\116\105\110\103") local l = true  local function g() l = not l n.Visible = l  if l then local s = Instance.new("\66\108\117\114\69\102\102\101\99\116") s.Parent = j s.Size = 0  local h = e:Create(s, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = 20}) h:Play() else for _, effect in pairs(j:GetChildren()) do if effect:IsA("\66\108\117\114\69\102\102\101\99\116") then local h = e:Create(effect, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = 0}) h:Play() h.Completed:Connect(function() effect:Destroy() end) end end end end local function k(p, o) if not o and p.UserInputType == Enum.UserInputType.Keyboard and (p.KeyCode == Enum.KeyCode.LeftControl or p.KeyCode == Enum.KeyCode.RightControl) then g() end end f.InputBegan:Connect(k) 
+end
+coroutine.wrap(ZTTJDEW_fake_script)()
+local function ZOBHD_fake_script() -- Frame.DragScript_obf 
+	local script = Instance.new('LocalScript', Frame)
+
+	local f = game:GetService('UserInputService') local e = script.Parent local n = nil local j = 0.25 local l = nil local s = nil local function g(o) local r = o.Position - l local h = UDim2.new(s.X.Scale, s.X.Offset + r.X, s.Y.Scale, s.Y.Offset + r.Y) game:GetService('TweenService'):Create(e, TweenInfo.new(j), {Position = h}):Play() end e.InputBegan:Connect(function(o) if (o.UserInputType == Enum.UserInputType.MouseButton1 or o.UserInputType == Enum.UserInputType.Touch) then  n = true l = o.Position s = e.Position o.Changed:Connect(function() if o.UserInputState == Enum.UserInputState.End then n = false end end) end end) f.InputChanged:Connect(function(o) if o.UserInputType == Enum.UserInputType.MouseMovement or o.UserInputType == Enum.UserInputType.Touch then if n then g(o) end end end) 
+end
+coroutine.wrap(ZOBHD_fake_script)()
